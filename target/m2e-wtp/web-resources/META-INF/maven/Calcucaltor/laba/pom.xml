@@ -5,7 +5,7 @@
   <version>1.0</version>
   <packaging>war</packaging>
   <build>
-<finalName>Calculate</finalName>
+<finalName>Calcucaltor</finalName>
 <defaultGoal>package</defaultGoal>
 <pluginManagement>
 <plugins>
