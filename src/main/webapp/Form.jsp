@@ -9,7 +9,7 @@
 <body>
 <h1>Калькулятор - площадь прямоугольника</h1>
  <form action="${pageContext.request.contextPath}/Calc" method="post">
- <label for="first">Длина  прямоугольника:</label>
+ <label for="first">Длина прямоугольника:</label>
  <input type="text" name="first" id="first" value="${first}">
  <label for="second">Ширина прямоугольника:</label>
  <input type="text" name="second" id="second" value="${second}">
