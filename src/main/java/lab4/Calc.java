@@ -13,7 +13,7 @@ public class Calc extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestCalc Calc = RequestCalc.fromRequestParameters(request);
-		Calc.setAsRequestAttributesAndCalculate(request);
+		Calc.seteAsRequestAttributesAndCalculate(request);
 		
 		request.getRequestDispatcher("/Results.jsp").forward(request, response);
 	}
@@ -33,7 +33,7 @@ public class Calc extends HttpServlet {
 		request.getParameter("second"));
 	}
 	
-	public void setAsRequestAttributesAndCalculate(HttpServletRequest request) {
+	public void seteAsRequestAttributesAndCalculate(HttpServletRequest request) {
 		request.setAttribute("first", first_calc);
 		request.setAttribute("second", second_calc);
 		int first_try;
@@ -46,7 +46,7 @@ public class Calc extends HttpServlet {
 			first_try = 0;
 			second_try = 0;
 		}
-		result=first_try * second_try;
+		result=(first_try*10) * (second_try*10);
 		request.setAttribute("result",result);
 		
 	}
