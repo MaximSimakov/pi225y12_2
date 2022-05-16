@@ -1,5 +1,5 @@
 package lab4;
-
+//check
 public abstract class Calculation {
 	protected int length;
 	protected int width;
