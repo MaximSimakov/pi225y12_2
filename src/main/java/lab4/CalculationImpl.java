@@ -1,7 +1,7 @@
 package lab4;
 import lab4.Calc;
 import lab4.Calc.RequestCalc;
-
+//calc
 public class CalculationImpl extends Calculation {
 	
 	//private String first_calc;
