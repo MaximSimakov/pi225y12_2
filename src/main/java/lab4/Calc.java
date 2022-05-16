@@ -12,7 +12,7 @@ import lab4.CalculationImpl;
 
 public class Calc extends HttpServlet {
 	
-//check
+//check commit
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestCalc Calc = RequestCalc.fromRequestParameters(request);
 		Calc.seteAsRequestAttributesAndCalculate(request);
